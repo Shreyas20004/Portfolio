@@ -1,4 +1,5 @@
 import React from 'react'
+import profileImage from '../assets/me.jpg'
 
 export default function Intro() {
   return (
@@ -20,7 +21,7 @@ export default function Intro() {
         </section>
       </div>
       <div className='w-1/3 h-3/4 overflow-hidden rounded-full border-4 border-gray-300 '>
-        <img src="src\assets\me.jpg" alt="profile" />
+        <img src={profileImage} alt="profile" />
       </div>
     </div>
   )
